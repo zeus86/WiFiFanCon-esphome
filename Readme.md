@@ -1,6 +1,6 @@
 # WiFiFanCon
 
-Control 12V PC Fans via Wi-Fi and [Tasmota](https://github.com/arendst/Tasmota)
+Control 12V PC Fans via Wi-Fi, [Tasmota](https://github.com/arendst/Tasmota) and [esphome](https://esphome.io/)
 
 [<img src="./img/board.jpg" width=650>](./img/board.jpg)
 [<img src="./img/tasmota_home.png">](./img/board.jpg)
@@ -19,7 +19,13 @@ Control 12V PC Fans via Wi-Fi and [Tasmota](https://github.com/arendst/Tasmota)
 
 Head over to the [./pcb](./pcb) for the pcb.
 
-For the firmware, install [Tasmota](https://github.com/arendst/Tasmota) e.g. using their fancy fully browser-based installer, then check out the [./berry](./berry) folder.
+### Installation
+
+#### Tasmota
+Install [Tasmota](https://github.com/arendst/Tasmota) e.g. using their fancy fully browser-based installer, then check out the [./berry](./berry) folder.
+
+#### esphome
+install the [yaml](./esphome/wififancontrol.yaml) via one of esphome's installation methods 
 
 ## Why?
 
