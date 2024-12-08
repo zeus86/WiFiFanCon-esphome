@@ -4,7 +4,7 @@ This is a fork of [WiFiFanCon](https://github.com/Hypfer/WiFiFanCon) by @Hypfer 
 This project adds a compatible esphome config for the same hardware. As the original 
 author [does not want to have this in his repo](https://github.com/Hypfer/WiFiFanCon/pull/2), 
 this fork remains standalone. I removed the PCB files and the tasmota config, 
-visit the original repo meantioned above for those.
+visit the original repo mentioned above for those.
 
 
 # WiFiFanController
