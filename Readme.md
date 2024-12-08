@@ -61,8 +61,6 @@ How else would you do that if not automated via Home Assistant?
 
 ## Pictures?
 
-[<img src="./img/box1.jpg" width=650>](./img/box1.jpg)
-[<img src="./img/box2.jpg" width=650>](./img/box2.jpg)
 [<img src="./img/avr.jpg" width=650>](./img/avr.jpg)
 
 
