@@ -92,6 +92,10 @@ likely very old) PWM-FANs stop below a certain PWM-range and oscillate back and 
 them up, and the motor is stalling the fan. The last example is very unhealthy for the fan. While there maybe a 5-15% range, where 
 it would be possible to kick up the Fan by first setting it to 100% and then to the desired level, you _really_ should avoid this!
 
+If your FANs refuse to stop, you can also tinker to make this work. The correct way to do this would be to cut off the supply voltage 
+to the FANs, when set to 0%. This would require 4 additional I/O-Pins in the worst case, but the ESP32 used here has enough Pins, and 
+you may have to hack this in and cut some traces, but it is however very doable.
+
 You might have to test out for yourself what works best for you. If you don't care about Money, just go with Noctua. They are top-notch 
 in every regard (except for their default color-scheme). However, I also quite like the Fans from [Iceberg Thermal](https://www.iceberg-thermal.com/product-category/consumer/case-fan/), 
 because they offer black, grey, rgb and teal Fans and are reasonable cheap. However, if you need alot of FANs for your project, get one and test first.
